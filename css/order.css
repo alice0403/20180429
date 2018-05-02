@@ -1,0 +1,161 @@
+.topStyle{
+  padding:0.1rem 0;
+  padding-left:0.8rem;
+  position: relative;
+  background-color: #fff;
+}
+
+.topStyle p{
+  line-height: 0.25rem;
+}
+
+.headImg{
+  width:0.5rem;
+  height:0.5rem;
+  position:absolute;
+  top:0.1rem;
+  left:0.15rem;
+}
+
+.nameStyle{
+  color:#000;
+  margin-right:0.085rem;
+}
+.logo{
+  width:0.505rem;
+  height:0.2rem;
+  position:absolute;
+  top:0.22rem;
+  right:0.16rem;
+}
+
+.middleHead{
+  background-color: #0E0F0F;
+  display: flex;
+  flex-flow: row;
+  color:#fff;
+}
+.middleHead>div{
+  width:25%;
+  flex-grow: 1;
+  text-align: center;
+  /*align-items:stretch;*/
+  line-height: 0.3rem;
+}
+
+.middleItem{
+  background-color: #fff;
+  color:#4A4A4A;
+  display: flex;
+  font-size:0.14rem;
+  flex-flow: row;
+  border-bottom: 0.01rem solid rgba(151,151,151,0.31);
+}
+.middleItem>div{
+  width:25%;
+  word-wrap:break-word;
+  flex-grow: 1;
+  text-align: center;
+  /*line-height: 0.38rem;*/
+  align-items:stretch;
+  padding:0.12rem 0;
+}
+
+.orderItem{
+  background-color: #fff;
+  color:#333;
+  display: flex;
+  font-size:0.14rem;
+  flex-flow: row;
+  justify-content:space-between;
+  border-bottom: 0.01rem solid rgba(151,151,151,0.31);
+}
+
+.orderItem>div{
+  text-align: center;
+  line-height: 0.4rem;
+}
+
+.orderItem>div:first-child{
+  margin-left:0.25rem;
+}
+
+.orderItem>div:last-child{
+  margin-right:0.24rem;
+}
+
+.sliderContainer{
+  width:100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  height:1.5rem;
+  border-bottom: 0.01rem solid rgba(151,151,151,0.31);
+}
+
+.sliderCon{
+  padding-top: 0.1rem;
+  padding-left:0.24rem;
+  padding-bottom:0.2rem;
+  background-color: #fff;
+  width:100%;
+  box-sizing: border-box;
+  overflow-x: scroll;
+}
+
+
+.imgDiv{
+  display: inline-block;
+  width:1.3rem;
+  height:1.3rem;
+  overflow: hidden;
+  margin-right:0.08rem;
+}
+
+.imgDiv>img{
+  max-width: none;
+  position: relative;
+  left:0;
+  top:0;
+}
+
+#slider .mui-slider-item{
+  width:1.3rem;
+  height:1.3rem;
+  margin-right:0.06rem;
+}
+
+.sum{
+  border-bottom:none;
+}
+
+.orderCon{
+  padding:0 0.24rem;
+  background-color: #fff;
+}
+
+.orderCon .orderItem>div:first-child{
+  margin-left:0;
+}
+
+.orderCon .orderItem>div:last-child{
+  margin-right:0;
+}
+
+.money{
+  font-size:0.36rem;
+  line-height: 0.5rem;
+  color:#000;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  max-width: 70%;
+}
+
+.btn{
+  width:3.43rem;
+  display: block;
+  margin: auto;
+  height:0.46rem;
+  background-image: url('../img/button-weixingzhifu@2x.png');
+  background-size:100% 100%;
+}
