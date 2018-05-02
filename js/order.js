@@ -43,7 +43,6 @@ $(document).ready(function(){
     imgHtml=imgHtml+'<div class="imgDiv '+imgUrlList[i].id+'"></div>';
     changeImgSize(imgUrlList[i].url,1.3,'rem',call,imgUrlList[i].id);
   }
-  console.log(imgHtml,'imgHtml');
   $('.sliderCon>div').html(imgHtml);
   /*图片处理 --end*/
 });
@@ -51,8 +50,6 @@ $(document).ready(function(){
 /*图片处理*/
 function changeImgSize(url,len,unit,callback,id){
   var img=new Image();
-  /*新增的图片路径*/
-  img.src=url;
   img.onload =function() {
     var W = img.width;
     var Y = img.height;
@@ -69,6 +66,8 @@ function changeImgSize(url,len,unit,callback,id){
     img.setAttribute('data-preview-group', '1');
     callback(img,id);
   };
+  /*新增的图片路径*/
+  img.src=url;
 }
 
 function call(img,id){
