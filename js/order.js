@@ -41,9 +41,11 @@ $(document).ready(function(){
   var imgHtml='';
   for(var i=0;i<imgUrlList.length;i++){
     imgHtml=imgHtml+'<div class="imgDiv '+imgUrlList[i].id+'"></div>';
+  };
+  $('.sliderCon>div').html(imgHtml);
+  for(var i=0;i<imgUrlList.length;i++){
     changeImgSize(imgUrlList[i].url,1.3,'rem',call,imgUrlList[i].id);
   }
-  $('.sliderCon>div').html(imgHtml);
   /*图片处理 --end*/
 });
 
