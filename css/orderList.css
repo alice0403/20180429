@@ -1,0 +1,82 @@
+.topTitle{
+  padding:0.12rem 0.16rem 0.08rem 0.16rem;
+  color:#666;
+  font-size:0.15rem;
+}
+.orderListCon{
+  padding:0 0.08rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.orderCell{
+  margin-bottom: 0.06rem;
+}
+
+.cellTop{
+  padding:0.1rem;
+  color:#1C1B20;
+  font-size:0.17rem;
+  background-color: #fff;
+  margin-bottom: 0.01rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.cellRight{
+  /*float:right;*/
+  /*color:#999;*/
+  width:0.06rem;
+  height:0.11rem;
+  background-image:url('./../img/right%20arrow@2x.png');
+  background-size: 100% 100%;
+}
+
+.cellBody{
+  padding:0.17rem 0.12rem;
+  background-color: #fff;
+  color:#666;
+  font-size:0.15rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.timeIcon{
+  display: inline-block;
+  width:0.1rem;
+  height:0.1rem;
+  background-image: url("./../img/time@2x.png");
+  background-size:100% 100%;
+  margin-right:0.07rem;
+  /*margin-bottom: 0.01rem;*/
+}
+.stateIcon{
+  display: inline-block;
+  width:0.06rem;
+  height:0.06rem;
+  background-size:100% 100%;
+  margin-right:0.1rem;
+  margin-bottom: 0.03rem;
+}
+
+.sucIcon{
+  background-image: url("./../img/circle1@2x.png");
+}
+
+.failIcon{
+  background-image: url("./../img/circle2@2x.png");
+}
+
+.failIcon+span{
+  color:#BA1212;
+}
+
+.total{
+  color:#333;
+  font-size:0.23rem;
+  font-weight: bold;
+}
